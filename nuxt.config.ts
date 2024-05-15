@@ -1,5 +1,12 @@
 export default {
-  
+  $production: {
+    routeRules: {
+      '/**': { isr: true }
+    }
+  },
+  $development: {
+    //
+  },
   runtimeConfig: {
     // The private keys which are only available server-side
     apiSecret: '123',
@@ -8,6 +15,7 @@ export default {
       apiBase: '/api'
     }
   },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'my-nuxt',
@@ -59,5 +67,8 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     transpile: [/^element-ui/]
+  },
+  generate: {
+    dir: 'docs'
   }
 }
