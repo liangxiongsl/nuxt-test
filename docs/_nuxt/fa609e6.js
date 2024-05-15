@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{435:function(n,e,t){"use strict";t.r(e);var c={__name:"sd",setup:function(n){return{__sfc:!0}}},r=t(57),component=Object(r.a)(c,(function(){var n=this,e=n._self._c;n._self._setupProxy;return e("div",[n._v("\n  sd\n")])}),[],!1,null,"963cf4f8",null);e.default=component.exports}}]);
