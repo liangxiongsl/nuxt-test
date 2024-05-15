@@ -1,4 +1,5 @@
 export default {
+  // ?
   $production: {
     routeRules: {
       '/**': { isr: true }
@@ -35,7 +36,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    'element-ui/lib/theme-chalk/index.css'
+    'element-ui/lib/theme-chalk/index.css',
+    ''
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -65,6 +67,7 @@ export default {
   },
   router: {
     base: '/nuxt-test'
+    // base: '/'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

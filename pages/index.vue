@@ -1,15 +1,13 @@
 <template>
-  <div>
-    hello world
-
-    {{ x }}
-    <nuxt-logo />
-    <Tutorial />
-  </div>
+  <l-default>
+    <c-test />
+    <NuxtLink to="">
+      asd
+    </NuxtLink>
+  </l-default>
 </template>
 
 <script setup>
-import { ref } from 'vue'
-const x = ref('jiba')
+import LDefault from '~/layouts/l-default.vue'
 
 </script>
