@@ -7,7 +7,7 @@
         what are you doing?
       </p>
       <p>三位立体混元劲</p>
-      <img src="@/public/img/123.jpg" alt="img">
+      <img src="@/public/favicon.ico" alt="img">
       <el-select v-model="sel" @change="on_change">
         <el-option v-for="v in font" :key="v" :value="v" :label="v" :style="{'font-family': v}" />
       </el-select>
